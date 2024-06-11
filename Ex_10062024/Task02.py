@@ -1,14 +1,13 @@
 # square and cube of the user input number
 import math
 x = input("Enter the number\t")
-x = int(x)
+x = float(x)
 print(x ** 2)
 print(x ** 3)
-a = math.sqrt(x)
+a = math.pow(x, 2)
 print(a)
-b = math.cbrt(x)
+b = math.pow(x, 3)
 print(b)
-
 
 ## 2 # findnding the greater and lesser numbers
 
@@ -19,6 +18,9 @@ y = int(y)
 if x > y:
     print("x is greater than y")
     print(x)
-else:
+elif x < y :
     print("y is greater than x")
+    print(f"{y} is greater than {x}")
     print(y)
+else:
+    print("x and y are equal")
