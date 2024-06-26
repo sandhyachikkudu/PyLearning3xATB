@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9dd2b3-423b-4a9f-b09d-5884f7b348e5" name="Changes" comment="adding the tasks">
+    <list default="true" id="2f9dd2b3-423b-4a9f-b09d-5884f7b348e5" name="Changes" comment="Adding the tasks">
       <change afterPath="$PROJECT_DIR$/Ex_10062024/Lab004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_12062024/Task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_14062024/lab005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_17062024/Lab006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/Filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/LAb007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/La008Decarators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/Recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/lab09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_24062024/sumRecursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_26062024/Lab10OOPs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_26062024/OOPs-practice3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_26062024/OOPs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_26062024/OOPspractice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_26062024/OOPspractice2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_10062024/Task02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex_10062024/Task02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_12062024/Task001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex_12062024/Task001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_12062024/Task003.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex_12062024/Task003.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +51,9 @@
     &quot;accountId&quot;: &quot;be50acbb-2a88-4e59-9f30-afcfa62ce2ad&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2024.1/python_stubs/-1837845687/builtins.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -47,36 +65,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Lab001.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab003.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab004.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Filters.executor": "Run",
+    "Python.LAb007.executor": "Run",
+    "Python.La008Decarators.executor": "Run",
+    "Python.Lab001.executor": "Run",
+    "Python.Lab003.executor": "Run",
+    "Python.Lab004.executor": "Run",
+    "Python.Lab006.executor": "Run",
+    "Python.Lab02.executor": "Run",
+    "Python.Lab10OOPs.executor": "Run",
+    "Python.OOPs-practice3.executor": "Run",
+    "Python.OOPs.executor": "Run",
+    "Python.OOPspractice.executor": "Run",
+    "Python.OOPspractice2.executor": "Run",
+    "Python.Recursion.executor": "Run",
+    "Python.Task001.executor": "Run",
+    "Python.Task002.executor": "Run",
+    "Python.Task003.executor": "Run",
+    "Python.Task02.executor": "Run",
+    "Python.Task3.executor": "Run",
+    "Python.Task4.executor": "Run",
+    "Python.Task5.executor": "Run",
+    "Python.lab005.executor": "Run",
+    "Python.lab09.executor": "Run",
+    "Python.sumRecursive.executor": "Run",
+    "Python.task01.executor": "Run",
+    "Python.task1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
-        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +133,15 @@
       <workItem from="1718007897097" duration="2557000" />
       <workItem from="1718012610137" duration="7689000" />
       <workItem from="1718082302654" duration="775000" />
+      <workItem from="1718083180828" duration="1176000" />
+      <workItem from="1718156900335" duration="7951000" />
+      <workItem from="1718589176403" duration="9082000" />
+      <workItem from="1718964829299" duration="27000" />
+      <workItem from="1719225403782" duration="1220000" />
+      <workItem from="1719300770366" duration="2548000" />
+      <workItem from="1719311471850" duration="3671000" />
+      <workItem from="1719367092402" duration="2544000" />
+      <workItem from="1719393402845" duration="10167000" />
     </task>
     <task id="LOCAL-00001" summary="adasd">
       <option name="closed" value="true" />
@@ -136,7 +183,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718041752013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding the tasks">
+      <option name="closed" value="true" />
+      <created>1718083203173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718083203173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding the tasks">
+      <option name="closed" value="true" />
+      <created>1718172679270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718172679270</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding the tasks">
+      <option name="closed" value="true" />
+      <created>1719226276172</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719226276172</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,14 +217,35 @@
     <MESSAGE value="adasd" />
     <MESSAGE value="learning python variables and data types" />
     <MESSAGE value="adding the tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the tasks" />
+    <MESSAGE value="Adding the tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the tasks" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task002.coverage" NAME="Task002 Coverage Results" MODIFIED="1718171875422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Filters.coverage" NAME="Filters Coverage Results" MODIFIED="1719395571494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice2.coverage" NAME="OOPspractice2 Coverage Results" MODIFIED="1719410004573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$LAb007.coverage" NAME="LAb007 Coverage Results" MODIFIED="1719312106955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Task02.coverage" NAME="Task02 Coverage Results" MODIFIED="1718083045373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab02.coverage" NAME="Lab02 Coverage Results" MODIFIED="1718012984097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_05062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice.coverage" NAME="OOPspractice Coverage Results" MODIFIED="1719408896360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$lab09.coverage" NAME="lab09 Coverage Results" MODIFIED="1719394004565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab10OOPs.coverage" NAME="Lab10OOPs Coverage Results" MODIFIED="1719369575690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPs.coverage" NAME="OOPs Coverage Results" MODIFIED="1719406822044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$lab005.coverage" NAME="lab005 Coverage Results" MODIFIED="1718614488673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_14062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task5.coverage" NAME="Task5 Coverage Results" MODIFIED="1719226192980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$sumRecursive.coverage" NAME="sumRecursive Coverage Results" MODIFIED="1719404328844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab001.coverage" NAME="Lab001 Coverage Results" MODIFIED="1718002719713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_03062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab003.coverage" NAME="Lab003 Coverage Results" MODIFIED="1718026502901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_07062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task003.coverage" NAME="Task003 Coverage Results" MODIFIED="1718592607235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Recursion.coverage" NAME="Recursion Coverage Results" MODIFIED="1719397367249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPs_practice3.coverage" NAME="OOPs-practice3 Coverage Results" MODIFIED="1719410258133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$La008Decarators.coverage" NAME="La008Decarators Coverage Results" MODIFIED="1719315154133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task3.coverage" NAME="Task3 Coverage Results" MODIFIED="1719225935249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1719225606497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab004.coverage" NAME="Lab004 Coverage Results" MODIFIED="1718036551767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$task01.coverage" NAME="task01 Coverage Results" MODIFIED="1718041098036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab02.coverage" NAME="Lab02 Coverage Results" MODIFIED="1718012984097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_05062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task4.coverage" NAME="Task4 Coverage Results" MODIFIED="1719226142511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab006.coverage" NAME="Lab006 Coverage Results" MODIFIED="1718590004680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_17062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab003.coverage" NAME="Lab003 Coverage Results" MODIFIED="1718026502901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_07062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task001.coverage" NAME="Task001 Coverage Results" MODIFIED="1718591278159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$task01.coverage" NAME="task01 Coverage Results" MODIFIED="1718086509136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
   </component>
 </project>
