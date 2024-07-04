@@ -4,33 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9dd2b3-423b-4a9f-b09d-5884f7b348e5" name="Changes" comment="Adding the practices">
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Encap1p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Encap2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Encap3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Encap4p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Encapsulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/Get_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_28062024/class_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/Inhar1p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/Method_overloading_poly2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/Polymorphism1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstaction_p1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstractionp2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstractionp3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstractionp4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstractionp5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/hierarchical_inheritance2p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/hybrid_inheritance4p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/inheritance5p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/muliple_inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/multilevel_inheritance3p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/overridingpoly2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/xyz/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/xyz/filexyz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise2_july/01072024/xyz/utils.py" afterDir="false" />
+    <list default="true" id="2f9dd2b3-423b-4a9f-b09d-5884f7b348e5" name="Changes" comment="Adding the practiced codes">
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L10_Customised_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L11_inheritance_super().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L12_main().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L13_Main()_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L14_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L15_Import_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L16_File_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L17_File_Handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L18_File_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L19_File_handling_forloop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L1_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L20_File_Handling_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L21_Pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L2_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L3_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L4_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L5_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L6_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L7_Files_open.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L8_File_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/L9_Exception_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/TD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/pramod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2_july/03072024/testdata.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2_july/01072024/Polymorphism1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2_july/01072024/Polymorphism1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2_july/01072024/abstaction_p1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2_july/01072024/abstaction_p1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2_july/01072024/hybrid_inheritance4p.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2_july/01072024/hybrid_inheritance4p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2_july/01072024/overridingpoly2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2_july/01072024/overridingpoly2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,27 @@
     "Python.Filters.executor": "Run",
     "Python.Get_set.executor": "Run",
     "Python.Inhar1p.executor": "Run",
+    "Python.L10_Customised_Exception.executor": "Run",
+    "Python.L11_inheritance_super().executor": "Run",
+    "Python.L12_main().executor": "Run",
+    "Python.L13_Main()_function.executor": "Run",
+    "Python.L14_Main().executor": "Run",
+    "Python.L15_Import_function.executor": "Run",
+    "Python.L16_File_handling.executor": "Run",
+    "Python.L17_File_Handling.executor": "Run",
+    "Python.L18_File_read.executor": "Run",
+    "Python.L19_File_handling_forloop.executor": "Run",
+    "Python.L1_exception.executor": "Run",
+    "Python.L20_File_Handling_csv.executor": "Run",
+    "Python.L21_Pandas.executor": "Run",
+    "Python.L2_exceotion.executor": "Run",
+    "Python.L3_Exception.executor": "Run",
+    "Python.L4_Exception.executor": "Run",
+    "Python.L5_Exception.executor": "Run",
+    "Python.L6_Exception.executor": "Run",
+    "Python.L7_Files_open.executor": "Run",
+    "Python.L8_File_try.executor": "Run",
+    "Python.L9_Exception_try.executor": "Run",
     "Python.LAb007.executor": "Run",
     "Python.La008Decarators.executor": "Run",
     "Python.Lab001.executor": "Run",
@@ -139,6 +163,36 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="L13_Main()_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise2_july/03072024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise2_july/03072024/L13_Main()_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.L13_Main()_function" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -172,7 +226,8 @@
       <workItem from="1719367092402" duration="2544000" />
       <workItem from="1719393402845" duration="10385000" />
       <workItem from="1719809300933" duration="8685000" />
-      <workItem from="1719825387835" duration="8212000" />
+      <workItem from="1719825387835" duration="8272000" />
+      <workItem from="1720056999432" duration="14313000" />
     </task>
     <task id="LOCAL-00001" summary="adasd">
       <option name="closed" value="true" />
@@ -246,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719410312313</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding the practiced codes">
+      <option name="closed" value="true" />
+      <created>1719835720239</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719835720240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +321,8 @@
     <MESSAGE value="adding the tasks" />
     <MESSAGE value="Adding the tasks" />
     <MESSAGE value="Adding the practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the practices" />
+    <MESSAGE value="Adding the practiced codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the practiced codes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyLearning3xATB$hybrid_inheritance4p.coverage" NAME="hybrid_inheritance4p Coverage Results" MODIFIED="1719829501484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
@@ -266,47 +330,68 @@
     <SUITE FILE_PATH="coverage/PyLearning3xATB$multilevel_inheritance3p.coverage" NAME="multilevel_inheritance3p Coverage Results" MODIFIED="1719828010407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Filters.coverage" NAME="Filters Coverage Results" MODIFIED="1719395571494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$abstractionp2.coverage" NAME="abstractionp2 Coverage Results" MODIFIED="1719834474862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$overridingpoly2.coverage" NAME="overridingpoly2 Coverage Results" MODIFIED="1719830772689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Encap2.coverage" NAME="Encap2 Coverage Results" MODIFIED="1719814552675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice2.coverage" NAME="OOPspractice2 Coverage Results" MODIFIED="1719410004573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$LAb007.coverage" NAME="LAb007 Coverage Results" MODIFIED="1719312106955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$abstractionp5.coverage" NAME="abstractionp5 Coverage Results" MODIFIED="1719835586206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task02.coverage" NAME="Task02 Coverage Results" MODIFIED="1718083045373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice.coverage" NAME="OOPspractice Coverage Results" MODIFIED="1719408896360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$lab09.coverage" NAME="lab09 Coverage Results" MODIFIED="1719394004565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1719825634258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab10OOPs.coverage" NAME="Lab10OOPs Coverage Results" MODIFIED="1719369575690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$muliple_inheritance.coverage" NAME="muliple_inheritance Coverage Results" MODIFIED="1719828574321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L21_Pandas.coverage" NAME="L21_Pandas Coverage Results" MODIFIED="1720071470114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPs.coverage" NAME="OOPs Coverage Results" MODIFIED="1719406822044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$abstaction_p1.coverage" NAME="abstaction_p1 Coverage Results" MODIFIED="1719832098531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$lab005.coverage" NAME="lab005 Coverage Results" MODIFIED="1718614488673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_14062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Task5.coverage" NAME="Task5 Coverage Results" MODIFIED="1719226192980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Method_overloading_poly2.coverage" NAME="Method_overloading_poly2 Coverage Results" MODIFIED="1719831649152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Encap1p.coverage" NAME="Encap1p Coverage Results" MODIFIED="1719814190903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Polymorphism1.coverage" NAME="Polymorphism1 Coverage Results" MODIFIED="1719830583650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Polymorphism1.coverage" NAME="Polymorphism1 Coverage Results" MODIFIED="1720057163716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$abstractionp4.coverage" NAME="abstractionp4 Coverage Results" MODIFIED="1719834973096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$hierarchical_inheritance2p.coverage" NAME="hierarchical_inheritance2p Coverage Results" MODIFIED="1719826950173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPs_practice3.coverage" NAME="OOPs-practice3 Coverage Results" MODIFIED="1719410258133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Recursion.coverage" NAME="Recursion Coverage Results" MODIFIED="1719397367249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L19_File_handling_forloop.coverage" NAME="L19_File_handling_forloop Coverage Results" MODIFIED="1720070471690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$La008Decarators.coverage" NAME="La008Decarators Coverage Results" MODIFIED="1719315154133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1719225606497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab004.coverage" NAME="Lab004 Coverage Results" MODIFIED="1718036551767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Get_set.coverage" NAME="Get_set Coverage Results" MODIFIED="1719817170091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L20_File_Handling_csv.coverage" NAME="L20_File_Handling_csv Coverage Results" MODIFIED="1720071196920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L13_Main___function.coverage" NAME="L13_Main()_function Coverage Results" MODIFIED="1720066775090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L9_Exception_try.coverage" NAME="L9_Exception_try Coverage Results" MODIFIED="1720065643110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L12_main__.coverage" NAME="L12_main() Coverage Results" MODIFIED="1720066520583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab003.coverage" NAME="Lab003 Coverage Results" MODIFIED="1718026502901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_07062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L7_Files_open.coverage" NAME="L7_Files_open Coverage Results" MODIFIED="1720064864233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task001.coverage" NAME="Task001 Coverage Results" MODIFIED="1718591278159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L8_File_try.coverage" NAME="L8_File_try Coverage Results" MODIFIED="1720065281328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L10_Customised_Exception.coverage" NAME="L10_Customised_Exception Coverage Results" MODIFIED="1720066254347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$overridingpoly2.coverage" NAME="overridingpoly2 Coverage Results" MODIFIED="1719830772689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice2.coverage" NAME="OOPspractice2 Coverage Results" MODIFIED="1719410004573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$LAb007.coverage" NAME="LAb007 Coverage Results" MODIFIED="1719312106955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L11_inheritance_super__.coverage" NAME="L11_inheritance_super() Coverage Results" MODIFIED="1720066433934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task02.coverage" NAME="Task02 Coverage Results" MODIFIED="1718083045373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPspractice.coverage" NAME="OOPspractice Coverage Results" MODIFIED="1719408896360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$lab09.coverage" NAME="lab09 Coverage Results" MODIFIED="1719394004565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab10OOPs.coverage" NAME="Lab10OOPs Coverage Results" MODIFIED="1719369575690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$muliple_inheritance.coverage" NAME="muliple_inheritance Coverage Results" MODIFIED="1719828574321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L2_exceotion.coverage" NAME="L2_exceotion Coverage Results" MODIFIED="1720059642697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L17_File_Handling.coverage" NAME="L17_File_Handling Coverage Results" MODIFIED="1720069716850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L16_File_handling.coverage" NAME="L16_File_handling Coverage Results" MODIFIED="1720069319577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$abstractionp3.coverage" NAME="abstractionp3 Coverage Results" MODIFIED="1719834764980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$sumRecursive.coverage" NAME="sumRecursive Coverage Results" MODIFIED="1719404328844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab001.coverage" NAME="Lab001 Coverage Results" MODIFIED="1718002719713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_03062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$abstractionp4.coverage" NAME="abstractionp4 Coverage Results" MODIFIED="1719834973096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Task003.coverage" NAME="Task003 Coverage Results" MODIFIED="1718592607235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Recursion.coverage" NAME="Recursion Coverage Results" MODIFIED="1719397367249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$OOPs_practice3.coverage" NAME="OOPs-practice3 Coverage Results" MODIFIED="1719410258133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_26062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$hierarchical_inheritance2p.coverage" NAME="hierarchical_inheritance2p Coverage Results" MODIFIED="1719826950173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$La008Decarators.coverage" NAME="La008Decarators Coverage Results" MODIFIED="1719315154133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_24062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L1_exception.coverage" NAME="L1_exception Coverage Results" MODIFIED="1720059395810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Task3.coverage" NAME="Task3 Coverage Results" MODIFIED="1719225935249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1719225606497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Inhar1p.coverage" NAME="Inhar1p Coverage Results" MODIFIED="1719826059176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab004.coverage" NAME="Lab004 Coverage Results" MODIFIED="1718036551767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Encap4p.coverage" NAME="Encap4p Coverage Results" MODIFIED="1719817869744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab02.coverage" NAME="Lab02 Coverage Results" MODIFIED="1718012984097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_05062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Encap3.coverage" NAME="Encap3 Coverage Results" MODIFIED="1719814913643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Get_set.coverage" NAME="Get_set Coverage Results" MODIFIED="1719817170091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab02.coverage" NAME="Lab02 Coverage Results" MODIFIED="1718012984097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_05062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Task4.coverage" NAME="Task4 Coverage Results" MODIFIED="1719226142511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_21062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L3_Exception.coverage" NAME="L3_Exception Coverage Results" MODIFIED="1720060721494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab006.coverage" NAME="Lab006 Coverage Results" MODIFIED="1718590004680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_17062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Lab003.coverage" NAME="Lab003 Coverage Results" MODIFIED="1718026502901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_07062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L15_Import_function.coverage" NAME="L15_Import_function Coverage Results" MODIFIED="1720068768534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$Encapsulation.coverage" NAME="Encapsulation Coverage Results" MODIFIED="1719812682419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_28062024" />
-    <SUITE FILE_PATH="coverage/PyLearning3xATB$Task001.coverage" NAME="Task001 Coverage Results" MODIFIED="1718591278159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_12062024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L6_Exception.coverage" NAME="L6_Exception Coverage Results" MODIFIED="1720063926449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L5_Exception.coverage" NAME="L5_Exception Coverage Results" MODIFIED="1720063434448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L4_Exception.coverage" NAME="L4_Exception Coverage Results" MODIFIED="1720062424409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L14_Main__.coverage" NAME="L14_Main() Coverage Results" MODIFIED="1720066824828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$task01.coverage" NAME="task01 Coverage Results" MODIFIED="1718086509136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex_10062024" />
     <SUITE FILE_PATH="coverage/PyLearning3xATB$inheritance5p.coverage" NAME="inheritance5p Coverage Results" MODIFIED="1719829813112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/01072024" />
+    <SUITE FILE_PATH="coverage/PyLearning3xATB$L18_File_read.coverage" NAME="L18_File_read Coverage Results" MODIFIED="1720070447762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2_july/03072024" />
   </component>
 </project>

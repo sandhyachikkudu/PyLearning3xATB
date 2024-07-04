@@ -1,3 +1,8 @@
+# polymorphism
+# polymorphism allows objects of different classes
+# to be treated as object of a common superclass
+
+# method overriding
 class shape:
     def area(self):
         print("area of the shape")

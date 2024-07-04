@@ -16,6 +16,7 @@ class C(A):
         print('method C')
 
 class D(B,C):
+    # multilevel,multiple ----->MRo--method resolution model---who ever is first t=that will execute
     def methodD(self):
         print('method D')
 

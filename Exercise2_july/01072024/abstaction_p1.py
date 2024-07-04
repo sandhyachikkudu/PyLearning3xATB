@@ -1,3 +1,7 @@
+# abstraction:Hiding the details and showing the what is required
+# incomplete method
+
+
 from abc import ABC, abstractmethod
 class animal(ABC):
 
