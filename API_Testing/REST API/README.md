@@ -1,6 +1,6 @@
 **API TESTING - REST**
 
-**Project Name: Number Conversion System**
+**Project Name: BOOKING ID**
 
 
 **Project URL:**
@@ -11,8 +11,8 @@
 **Project Description**
 This project involves testing the Rest API for Booking Id. The API Create the booking and gives booking id details, update the booking id and delete the booking id. The testing focuses on validating the functionality of the API endpoint and handling various input scenarios.
 
-**Test Cases**
-A set of Postman test cases have been created to cover different scenarios for the creating,updating,geting and delete booking id API. These include positive and negative test cases to ensure robustness and accuracy in booking idresults.
+**Test Cases:**
+A set of Postman test cases have been created to cover different scenarios for the creating,updating,geting and delete booking id API. These include positive and negative test cases to ensure robustness and accuracy in booking id results.
 
 **Running Tests with Newman**
 Newman is a command-line collection runner for Postman. It allows you to run and test a Postman collection directly from the command line.
