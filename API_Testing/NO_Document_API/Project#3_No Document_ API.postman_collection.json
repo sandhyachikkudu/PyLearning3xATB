@@ -1,0 +1,620 @@
+{
+	"info": {
+		"_postman_id": "b8635933-25b9-4ff1-a6b8-2d4500b33a7d",
+		"name": "Project#3_No Document_ API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36343203"
+	},
+	"item": [
+		{
+			"name": "Account Registration API",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD"
+					},
+					{
+						"key": "origin",
+						"value": "https://awesomeqa.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/register"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/success"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customer_group_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "sand",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "ch",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "sand@2000.com",
+							"type": "text"
+						},
+						{
+							"key": "telephone",
+							"value": "1234567890",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "ch123",
+							"type": "text"
+						},
+						{
+							"key": "confirm",
+							"value": "ch123",
+							"type": "text"
+						},
+						{
+							"key": "newsletter",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "agree",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=account/register",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/register"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/index.php?route=account/register' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryHxD5KhQtuHB9552h' \\\r\n  -H 'cookie: OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD' \\\r\n  -H 'origin: https://awesomeqa.com' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=account/register' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  --data-raw $'------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"customer_group_id\"\\r\\n\\r\\n1\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"firstname\"\\r\\n\\r\\nsand\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"lastname\"\\r\\n\\r\\nch\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"email\"\\r\\n\\r\\nsand@2000.com\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"telephone\"\\r\\n\\r\\n1234567890\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"password\"\\r\\n\\r\\nch123\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"confirm\"\\r\\n\\r\\nch123\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"newsletter\"\\r\\n\\r\\n0\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h\\r\\nContent-Disposition: form-data; name=\"agree\"\\r\\n\\r\\n1\\r\\n------WebKitFormBoundaryHxD5KhQtuHB9552h--\\r\\n' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'cookie: OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=account/register' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/jquery-2.1.1.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/css/bootstrap.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/css/font-awesome.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/theme/default/stylesheet/stylesheet.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/common.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/catalog/opencart-logo.png' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/success' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' -H 'Referer;' ;\r\ncurl 'https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2' -H 'Referer;'"
+			},
+			"response": []
+		},
+		{
+			"name": "Log In API",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD"
+					},
+					{
+						"key": "origin",
+						"value": "https://awesomeqa.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/login"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=account/account"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "sand@2000.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "ch123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=account/login",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/login"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/index.php?route=account/login' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7Nc24nXkEHlHUWx4' \\\r\n  -H 'cookie: OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD' \\\r\n  -H 'origin: https://awesomeqa.com' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=account/login' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  --data-raw $'------WebKitFormBoundary7Nc24nXkEHlHUWx4\\r\\nContent-Disposition: form-data; name=\"email\"\\r\\n\\r\\nsand@2000.com\\r\\n------WebKitFormBoundary7Nc24nXkEHlHUWx4\\r\\nContent-Disposition: form-data; name=\"password\"\\r\\n\\r\\nch123\\r\\n------WebKitFormBoundary7Nc24nXkEHlHUWx4--\\r\\n' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'cookie: OCSESSID=c84aec1d2606bb6b1f13f5578f; language=en-gb; currency=USD' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=account/login' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/jquery-2.1.1.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/css/bootstrap.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/css/font-awesome.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/theme/default/stylesheet/stylesheet.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/common.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/catalog/opencart-logo.png' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=account/account' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' -H 'Referer;' ;\r\ncurl 'https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2' -H 'Referer;'"
+			},
+			"response": []
+		},
+		{
+			"name": "add products to cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "language=en-gb; currency=USD; OCSESSID=5fc18d80e7b3f3c41d255d668b"
+					},
+					{
+						"key": "origin",
+						"value": "https://awesomeqa.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=product/category&path=24"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "product_id=28&quantity=1",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=checkout/cart/add",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "checkout/cart/add"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/index.php?route=checkout/cart/add' \\\r\n  -H 'accept: application/json, text/javascript, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=5fc18d80e7b3f3c41d255d668b' \\\r\n  -H 'origin: https://awesomeqa.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=product/category&path=24' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  --data-raw 'product_id=28&quantity=1' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=common/cart/info' \\\r\n  -H 'accept: text/html, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=5fc18d80e7b3f3c41d255d668b' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=product/category&path=24' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest' ;\r\ncurl 'https://awesomeqa.com/ui/image/cache/catalog/demo/htc_touch_hd_1-47x47.jpg' \\\r\n  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=5fc18d80e7b3f3c41d255d668b' \\\r\n  -H 'priority: i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=product/category&path=24' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: image' \\\r\n  -H 'sec-fetch-mode: no-cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'"
+			},
+			"response": []
+		},
+		{
+			"name": "Remove_product_from_cart",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=checkout/cart"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=checkout/cart"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=checkout/cart",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "checkout/cart"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/jquery-2.1.1.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/css/bootstrap.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/css/font-awesome.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/theme/default/stylesheet/stylesheet.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/common.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/catalog/opencart-logo.png' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/cache/catalog/demo/hp_1-47x47.jpg' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=extension/total/shipping/country&country_id=222' \\\r\n  -H 'accept: application/json, text/javascript, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' -H 'Referer;' ;\r\ncurl 'https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2' -H 'Referer;'"
+			},
+			"response": []
+		},
+		{
+			"name": "checkout_product",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=checkout/cart"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Referer",
+						"value": "https://awesomeqa.com/ui/index.php?route=checkout/checkout"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"url": {
+					"raw": "https://awesomeqa.com/ui/index.php?route=checkout/checkout",
+					"protocol": "https",
+					"host": [
+						"awesomeqa",
+						"com"
+					],
+					"path": [
+						"ui",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "checkout/checkout"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=checkout/cart' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/jquery-2.1.1.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/css/bootstrap.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/bootstrap/js/bootstrap.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/css/font-awesome.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/theme/default/stylesheet/stylesheet.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/datetimepicker/moment/moment-with-locales.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/common.js' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/catalog/opencart-logo.png' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/image/cache/catalog/demo/hp_1-47x47.jpg' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'Referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' ;\r\ncurl 'https://awesomeqa.com/ui/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' -H 'Referer;' ;\r\ncurl 'https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2' -H 'Referer;' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=checkout/payment_address' \\\r\n  -H 'accept: text/html, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest' ;\r\ncurl 'https://awesomeqa.com/ui/index.php?route=checkout/checkout/country&country_id=222' \\\r\n  -H 'accept: application/json, text/javascript, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cookie: language=en-gb; currency=USD; OCSESSID=da17f5b2d3159ef4011200d008' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://awesomeqa.com/ui/index.php?route=checkout/checkout' \\\r\n  -H 'sec-ch-ua: \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest'"
+			},
+			"response": []
+		}
+	]
+}
