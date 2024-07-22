@@ -36,6 +36,11 @@ Newman installed globally via npm.
 
     npm install -g newman
 
+**Execution of Testcases:**
+
+Open commandline:
+newman run "https://api.postman.com/collections/36343203-64da35a8-2c42-4927-86bb-50ff4f92e7f3?access_key" -r cli,htmlextra
 
 
+**Newman Report**
 
