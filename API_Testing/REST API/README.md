@@ -16,7 +16,7 @@ This project involves testing the Rest API for Booking Id. The API Create the bo
 
 A set of Postman test cases have been created to cover different scenarios for the creating,updating,geting and delete booking id API. These include positive and negative test cases to ensure robustness and accuracy in booking id results.
 
-https://github.com/user-attachments/files/16329216/Testcases_Rest.API.xlsx
+[Testcases_Rest API.xlsx](https://github.com/user-attachments/files/16329380/Testcases_Rest.API.xlsx)
 
 **Running Tests with Newman:**
 
