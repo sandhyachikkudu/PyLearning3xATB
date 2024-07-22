@@ -2,6 +2,24 @@
 
 **Project Name: Number Conversion System**
 **Project URL:**
-Number Conversion Service API Documentation
+(https://www.dataaccess.com/webservicesserver/NumberConversion.wso?op=NumberToWords)
+**Project Description**
+This project involves testing the Rest API for Booking Id. The API Create the booking and gives booking id details, update the booking id and delete the booking id. The testing focuses on validating the functionality of the API endpoint and handling various input scenarios.
+
+**Test Cases**
+A set of Postman test cases have been created to cover different scenarios for the creating,updating,geting and delete booking id API. These include positive and negative test cases to ensure robustness and accuracy in booking idresults.
+
+**Running Tests with Newman**
+Newman is a command-line collection runner for Postman. It allows you to run and test a Postman collection directly from the command line.
+
+**Prerequisites**
+Node.js installed on your system.
+Newman installed globally via npm.
+**Installation**
+1.Install Node.js.
+2.Install Newman globally using npm:
+  npm install -g newman
+
+
 
 
