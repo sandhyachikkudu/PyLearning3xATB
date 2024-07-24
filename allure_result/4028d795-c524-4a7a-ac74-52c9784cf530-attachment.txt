@@ -1,0 +1,1 @@
+{'firstname': 'Susan', 'lastname': 'Ericsson', 'totalprice': 955, 'depositpaid': False, 'bookingdates': {'checkin': '2020-07-11', 'checkout': '2022-07-06'}, 'additionalneeds': 'Breakfast'}
