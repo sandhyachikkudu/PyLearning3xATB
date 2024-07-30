@@ -1,0 +1,4 @@
+/booking
+828
+{'Content-Type': 'application/json', 'Cookie': 'cookie_value', 'Authorization': 'Basic YWRtaW46cGFzc3dvcmQxMjM='}
+Created

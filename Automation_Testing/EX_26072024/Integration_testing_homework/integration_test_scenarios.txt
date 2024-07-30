@@ -1,0 +1,6 @@
+1	Create a Booking, Update the Booking Name, Get the Booking by Id and verify.
+2	Create a Booking, Delete the Booking with Id and Verify using GET request that it should not exist.
+3	Create a BOOKING, Delete It ----complted
+4	Get an Existing Booking from Get All Bookings Ids , Update a Booking and Verify using GET by id.
+5	Invalid Creation - enter a wrong payload or Wrong JSON.-----completed
+6	Trying to Update on a Deleted Id -> 404

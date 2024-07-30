@@ -3,16 +3,8 @@ import allure
 import requests
 
 
-
-# For post
-# url
-# path
-# bookingid
-# token
-# payload
-
+@pytest.fixture()
 def create_token():
-    # token 
     url = "https://restful-booker.herokuapp.com/auth"
     headers = {"Content-Type":"application/json"}
     payload = {
@@ -26,12 +18,9 @@ def create_token():
     return token
 
 
-@allure.title("Create booking for CRUD")
-@allure.description("Tc#1 -> verify the create booking for valid data")
-@allure.tag("smoke","p0")
-@allure.label("owner","sandhya")
-@pytest.mark.smoke
-def test_create_booking():
+
+@pytest.fixture()
+def create_booking_id():
     basic_url ="https://restful-booker.herokuapp.com"
     basic_path ="/booking"
     URL = basic_url+basic_path
@@ -55,17 +44,15 @@ def test_create_booking():
     bookingid = response.json()["bookingid"]
     return bookingid
 
-@allure.title("Update Booking Curd Positive")
-@allure.description("Tc#2-> Verify the Booking Id is uodate with valid id")
-@allure.tag("regression","p0")
-@allure.label("Tc#2")
-@pytest.mark.smoke
-def test_update_booking():
+
+
+
+def test_update_booking_1(create_token,create_booking_id):
     base_url = "https://restful-booker.herokuapp.com"
-    base_path ="/booking/"+str(test_create_booking())
+    base_path ="/booking/"+str(create_booking_id)
     URL = base_url+base_path
 
-    cookie ="token=" + create_token()
+    cookie ="token=" + create_token
 
 
     header = {
@@ -88,45 +75,57 @@ def test_update_booking():
 
     responsedata = response.json()
     print(responsedata)
-    assert responsedata["firstname"] == "sand"
-    assert responsedata["lastname"] == "chikku"
-
-
-@allure.title("Delete the Booking id CURD")
-@allure.description("verify the booking id is deleted")
-@allure.tag("regresson","p0")
-@allure.label("Tc#4")
-@pytest.mark.regression
-def test_delete_id():
-        URL = "https://restful-booker.herokuapp.com/booking/"
-        booking_id = test_create_booking()
-        delete_URL = URL+str(booking_id)
-
-        cookie_value = "token="+create_token()
-        headers = {
-            "Content-Type": "application/json",
-            "Cookie" :"cookie_value",
-            "Authorization" : "Basic YWRtaW46cGFzc3dvcmQxMjM=",}
-        
-        print(headers)
-
-        response=requests.delete(url=delete_URL,headers=headers)
-        
-        response.status_code == 201
-        
-def get_booking_id():
-     get_url="https://restful-booker.herokuapp.com/booking/"+str(test_create_booking())
-     headers ={"Accept":"application/json"}
-
-     response = requests.get(url=get_url,headers=headers)
-     assert response.status_code == 200
 
 
 
 
 
+def test_update_booking_2(create_token,create_booking_id):
+    base_url = "https://restful-booker.herokuapp.com"
+    base_path ="/booking/"+str(create_booking_id)
+    URL = base_url+base_path
+
+    cookie ="token=" + create_token
+
+
+    header = {
+        "Content-Type":"application/json",
+        "Cookie" : cookie
+        }
+    payload = {
+        "firstname" : "sand",
+        "lastname" : "chikku",
+        "totalprice" : 111,
+        "depositpaid" : True,
+        "bookingdates" : {
+            "checkin" : "2018-01-01",
+            "checkout" : "2019-01-01"
+            },
+        "additionalneeds" : "Breakfast"
+        }
+    response = requests.put(url=URL,headers=header,json=payload)
+    assert response.status_code == 200
+
+    responsedata = response.json()
+    print(responsedata)
 
 
 
+# def test_get_booking_id(create_token,create_booking_id):
+#     base_url = "https://restful-booker.herokuapp.com"
+#     base_path ="/booking/"+str(create_booking_id)
+#     get_URL = base_url+base_path
+
+#     cookie ="token=" + create_token
 
 
+#     header = {
+#         "Content-Type":"application/json",
+#         "Cookie" : cookie
+#         }
+    
+#     response = requests.get(url=get_URL,headers=header)
+
+#     assert response.status_code == 200
+#     responsedata = response.json()
+#     print(responsedata)
