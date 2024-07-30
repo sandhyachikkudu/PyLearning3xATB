@@ -1,12 +1,15 @@
+# Invalid Creation - enter a wrong payload or Wrong JSON.-----completed
+
+
 import pytest
 import requests
 import allure
 
 
-@allure.title("TC#1-->Integration Scenario1")
-@allure.description("verify the booking id is created for integration scenario1")
+@allure.title("TC#5-->Integration Scenario 5")
+@allure.description("verify the booking id is created or not for inavlid data for integration scenario 5")
 @allure.tag("smoke","p0")
-@allure.label("TC#1")
+@allure.label("TC#5")
 @pytest.mark.smoke
 def test_create_booking_id():
     basic_url ="https://restful-booker.herokuapp.com"

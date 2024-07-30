@@ -1,11 +1,12 @@
+# Create a Booking, Update the Booking Name, Get the Booking by Id and verify.
 import pytest
 import allure
 import requests
 
-@allure.title("TC#2-->Integration Scenario1")
+@allure.title("TC#1-->Integration Scenario1")
 @allure.description("verify the booking id is upadted in integration scenario1")
 @allure.tag("smoke","p0")
-@allure.label("TC#2")
+@allure.label("TC#1")
 @pytest.mark.smoke
 
 def test_update_booking_id(create_token,test_create_booking_id):

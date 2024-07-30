@@ -1,3 +1,5 @@
+# Trying to Update on a Deleted Id -> 404
+
 import pytest
 import allure
 import requests
@@ -18,10 +20,10 @@ def create_token():
 
 
 @pytest.fixture()
-@allure.title("TC#1-->Integration Scenario6")
+@allure.title("TC#6-->Integration Scenario6")
 @allure.description("verify the booking id is created for integration scenario 6")
 @allure.tag("smoke","p0")
-@allure.label("TC#1")
+@allure.label("TC#6")
 def test_create_booking_id():
     basic_url ="https://restful-booker.herokuapp.com"
     basic_path ="/booking"

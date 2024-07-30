@@ -1,3 +1,4 @@
+# Get an Existing Booking from Get All Bookings Ids , Update a Booking and Verify using GET by id.
 
 import pytest
 import allure
@@ -16,6 +17,9 @@ def create_token():
     token = response.json()["token"]
     print(token)
     return token
+
+
+
 @pytest.fixture()
 def get_existing_id():
     url="https://restful-booker.herokuapp.com/booking"
@@ -24,6 +28,12 @@ def get_existing_id():
     booking_id = data[0]["bookingid"]
     return booking_id
 
+
+
+@allure.title("TC#4-->Integration Scenario 4")
+@allure.description("verify that  booking id is updated for integration scenario 4")
+@allure.tag("smoke","p0")
+@allure.label("TC#4")
 def test_update_req(create_token,get_existing_id):
     print("Token ->", create_token)
     print("Bookingid ->", get_existing_id)

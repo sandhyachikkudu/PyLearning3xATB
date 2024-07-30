@@ -1,3 +1,4 @@
+# Create a Booking, Delete the Booking with Id and Verify using GET request that it should not exist.
 import pytest
 import allure
 import requests
